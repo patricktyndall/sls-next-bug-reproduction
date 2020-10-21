@@ -15,6 +15,8 @@ export async function getStaticPaths(){
 }
 
 export async function getStaticProps({ params, preview=false }){
+	console.log('preview mode: ' + preview);
+	console.log(params);
 	let { all } = params;
 	all = all.join('/');
 	return { props: { all } };
