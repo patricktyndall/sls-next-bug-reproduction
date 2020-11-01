@@ -1,5 +1,5 @@
 const ContentPage = ({ all }) => {
-	return 'Content Page ' + all;
+	return 'Product Page ' + all;
 };
 
 export async function getStaticPaths(){
