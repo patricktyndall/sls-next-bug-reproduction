@@ -11,7 +11,7 @@ export default () => {
 		<>
 			{
 				paths.map(p => (
-					<Link href={p}><a className='db'>{p}</a></Link>
+					<Link href={p}><a>{p}</a></Link>
 				))
 			}
 		</>
